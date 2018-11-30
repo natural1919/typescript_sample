@@ -1,0 +1,27 @@
+{
+  "name": "typescript_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "python -m SimpleHTTPServer 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natural1919/typescript_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natural1919/typescript_sample/issues"
+  },
+  "homepage": "https://github.com/natural1919/typescript_sample#readme",
+  "devDependencies": {
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
